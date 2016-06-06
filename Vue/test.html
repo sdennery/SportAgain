@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <p>
+        <input id="bouton" type="submit" value="Cliquez pour voir ce qu'il se passe !" onclick="change()" />
+        <input id="return" type="submit" value="réinitialisation" />
+        </p>
+    <script>
+        function connexion(){
+           var req = null;
+           
+           if(window.XMLHttpRequest) // Firefox et autres
+	   req = new XMLHttpRequest(); 
+	else if(window.ActiveXObject){ // Internet Explorer 
+	   try {
+                req = new ActiveXObject("Msxml2.XMLHTTP");
+            } catch (e) {
+                req = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+	}
+	else { // XMLHttpRequest non supporté par le navigateur 
+	   alert("Votre navigateur ne supporte pas les objets XMLHTTPRequest..."); 
+	   req = false; 
+	} 
+        }    
+        function test(){
+            var test = connexion();
+            test.onreadystatechange = function(){
+                
+            }
+        }
+    </script>
+    </body>
+</html>
