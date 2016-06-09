@@ -1,0 +1,101 @@
+a:link{
+    color:black;
+    text-decoration:none;
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover{
+    text-decoration:underline;
+    color:blue; 
+}
+
+#fond{
+    background-color:rgb(112,169,198);
+    margin-top:-24px;
+    padding-top:20px;
+    height:300px;
+}
+
+#gestion {
+    float:left;
+    border:1px solid black;
+    border-radius:20px;
+    background-color:#fff;
+    width:500px;
+    margin-left:100px;
+    box-shadow: 8px 8px 8px;
+}
+
+#position_point1{
+    margin-top:-25px;
+    font-size:60px;
+}
+
+#position_point2{
+    margin-top:-45px;
+    font-size:60px;
+}
+
+#position_point3{
+    margin-top:-45px;
+    font-size:60px;
+}
+
+#position_point4{
+    margin-top:-45px;
+    font-size:60px;
+}
+
+#position_club{
+    margin-top:-86px;
+    margin-left:40px;
+}
+
+#position_groupe{
+    margin-top:-86px;
+    margin-left:40px;
+    
+}
+
+#position_utilisateur{
+    margin-top:-86px;
+    margin-left:40px;
+}
+
+#position_sport{
+    margin-top:-86px;
+    margin-left:40px;
+}
+
+#sup_modif{
+    margin-left:20px;
+}
+
+#info{
+    float:right;
+    margin-top:0px;
+    border:1px solid black;
+    border-radius:20px;
+    width:500px;
+    margin-right:100px;
+    box-shadow: 8px 8px 8px;
+    background-color:#fff;
+    padding-bottom:30px;
+}
+
+.modifier{
+    margin-top:-34px;
+    margin-left:320px;
+}
+
+.supprimer{
+    margin-top:-34px;
+    margin-left:400px;
+}
+
+.position_nombre{
+    margin-top:30px;
+}

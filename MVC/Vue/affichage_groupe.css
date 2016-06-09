@@ -1,0 +1,95 @@
+body{
+    min-width: 1333px;
+    min-height: 200px;
+}
+
+
+.bordure {
+    border:1.5px inset black;
+    width: 1050px;
+    margin-left:auto; 
+    margin-right:auto; 
+    background-image: url(Images/changer-fond-ecran-windows_01.jpg);
+	background-position: bottom;
+    border-radius:8px;
+}
+
+
+
+
+p {
+    margin-left: 2%;
+}
+
+
+.centre {
+    margin-left: 160px;
+    position:absolute;
+}
+
+
+
+.placement {
+    margin-left: 120px;
+	width: 180px;
+
+}
+
+
+#fondPage{
+    background-color: white;
+    margin-top:-28px;
+    padding-top:20px;
+    width:100%;
+    padding-bottom:20px;
+}
+
+#vignette{
+
+    border: 1.5px solid rgb(112,169,198);
+    height:300px;
+    width:970px;
+    margin-left:auto;
+    margin-right:auto;
+   background-color: #fff;
+    border-radius:20px;
+}
+
+.alignement {
+    position:absolute;
+}
+#alignement_image {
+    margin-left: 10px;
+    width:130px;
+    height:170px;
+    margin-top:-115px;
+}
+#alignement_nom {
+    margin-left:214px;
+    margin-top:-102px;
+    font-size:24px;
+    font-family:cursive;
+}
+#alignement_descriptif {
+    margin-left:214px;
+    margin-top:-102px;
+    width:500px;
+}
+#rejoindre {
+    margin-left:750px;
+}
+
+#agencement {
+    position:absolute;
+    margin-left:-1094px;
+    margin-top:218px;
+    width:250px;
+}
+
+.placement{
+    margin-top:-18px;
+}
+
+
+
+

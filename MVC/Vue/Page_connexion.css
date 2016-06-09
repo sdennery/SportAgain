@@ -1,0 +1,69 @@
+div {
+    background-color:#fff;
+    height: 20px;
+    min-height: 20px;
+}
+
+.fondBleu {
+    background-color:#fff;
+    height: 500px;
+    min-height: 500px;
+    width: 1333px;
+    min-width: 1333px;
+    border-radius: 3px;
+    margin-top: -25px;
+}
+
+.bordure {
+    border:1.5px solid black;
+    height:260px;
+    min-height: 240px;
+    width: 340px;
+    min-width: 340px;
+    margin-left:auto; 
+    margin-right:auto; 
+    background-image: url('../Vue/Images/changer-fond-ecran-windows_01.jpg');
+	background-position: bottom;
+	border-radius: 8px;
+}
+
+
+
+.decalage {
+    margin-left: 100px;
+}
+
+p {
+    margin-left: 2%;
+}
+
+.bouton{
+    margin-left: 15px;
+}
+
+.droite {
+    text-align: right
+    font-size:25px;
+}
+
+
+.centre {
+    margin-left: 130px;
+}
+
+.espace {
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+    font-size:16px;
+}
+
+.placement {
+    margin-left: 150px;
+}
+
+.placement2 {
+    margin-left: 194px;
+}
+
+

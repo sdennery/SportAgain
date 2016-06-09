@@ -1,0 +1,111 @@
+.fondBleu {
+    background-color:rgb(112,169,198);
+    /*height: 110%;*/
+    width: 1335px;
+    height:680px;
+    border-right:1.5px solid black;
+    border-left:1.5px solid black;
+    border-radius: 3px;
+    margin-top: -19px;
+    padding-bottom:20px;
+}
+
+.bordure {
+    border:1.5px solid black;
+   /* height:250px;*/
+    width:1050px;
+    margin-left:auto; 
+    margin-right:auto; 
+    background-color: #fff;
+    border-radius:8px;
+}
+
+.espace {
+    margin-right: 5%;
+    font-size:16px;
+}
+
+#gestion{
+    position:relative;
+    float:left;
+    border:1px solid black;
+    border-radius:20px;
+    background-color:#fff;
+    width:400px;
+    height:400px;
+    left:170px;
+    box-shadow: 8px 8px 8px;
+    top:20px;
+    overflow:auto;
+}
+
+#info{
+    position:relative;
+    float:right;
+    margin-top:20px;
+    border:1px solid black;
+    border-radius:20px;
+    width:400px;
+    height:400px;
+    margin-right:170px;
+    box-shadow: 8px 8px 8px;
+    background-color:#fff;
+    overflow:auto;
+}
+
+#position_nom {
+    position:relative;
+    top:10px;
+    left:100px;
+    height:38px;
+    width:180px;
+    overflow:auto;
+}
+
+#position_sup {
+    position:relative;
+    float:right;
+    right:20px;
+    top:-15px;
+}
+
+#taille {
+    height: 80px;
+    width:80px;
+}
+
+#position_photo{
+
+    margin-left:10px;
+ }
+
+.position_nombre{
+    padding-bottom:6px;
+}
+
+.BasdePage {
+    width:1335px;
+}
+
+#retour_accueil{
+    color:black;
+    font-size:24px;
+}
+
+#retour_accueil:link{
+    text-decoration:none;
+}
+
+#retour_accueil:hover{
+    text-decoration:underline;
+    font-style:italic;
+    
+}
+
+#position_retour{
+    margin-top:480px;
+}
+
+.BasdePage{
+    margin-top:-60px;
+}

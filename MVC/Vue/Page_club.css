@@ -1,0 +1,7 @@
+#fondBleu {
+    height: 900px;
+    width: 500px;
+    background-image: url('../Vue/Images/changer-fond-ecran-windows_01.jpg');
+    background-position: bottom;
+    margin: auto;
+}

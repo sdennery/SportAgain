@@ -1,0 +1,281 @@
+#body {
+    width: 1300px;
+    height: 1000px;
+}
+
+
+
+
+div {
+    background-color:#fff;
+    height:30%;
+}
+
+.fondBleu {
+    background-color:rgb(112,169,198);
+    height: 130%;
+    width:100%;
+    border:1.5px solid black;
+    border-radius: 3px;
+    margin-top: -25px;
+}
+
+.bordure {
+    border:1.5px solid black;
+    height:615px;
+    width: 400px;
+    margin-left:auto; 
+    margin-right:auto; 
+    background-color: #fff;
+}
+
+
+.design {
+    text-decoration: none;
+    color:black;
+}
+
+.design:hover {
+    text-decoration: none;
+    color:#fff;
+}
+
+.design2 {
+    text-decoration: none;
+    color:black;
+}
+
+.design2:hover {
+    text-decoration: none;
+    color:#4c8ade;
+}
+
+.souligne {
+    text-decoration : underline;
+    color:#2a3350;
+}
+
+.BasdePage {
+    margin-left:auto; 
+    margin-right:auto; 
+}
+
+.decalage {
+    margin-left: 80px;
+}
+
+.souligne {
+    text-decoration: none;
+    color:#2a3350;
+}
+
+.souligne:hover {
+    text-decoration: underline;
+    color:#2a3350;
+}
+
+p {
+    margin-left: 2%;
+}
+
+.Fondgris {
+    background-color: #fff;
+    height:25%;
+}
+
+.bouton{
+    margin-left: 15px;
+    
+}
+
+.droite {
+    text-align: right
+    font-size:25px;
+}
+
+.centre {
+    margin-left: 160px;
+    position:absolute;
+}
+
+.espace {
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+    font-size:16px;
+}
+
+.placement {
+    margin-left: 160px;
+}
+
+.placement2 {
+    margin-left: 203px;
+}
+
+
+
+input{
+    top:10px;
+    left:1080px;
+    border-radius:5px;
+}
+
+
+#gris {
+    position:relative;
+    height: 24%;
+    width: 100%;
+    background-color: #0e1e57;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    margin-top: -15px;
+    z-index:1;
+}
+
+.article {
+   margin-top:-31px;
+    min-height:860px;
+    width:100%;
+    background-color:white;
+    
+}
+
+#art {
+    border:3px solid black;    
+}
+
+#planning1 {
+    position:absolute;
+    left:60px;
+    top:160px;
+    font-size:20px;
+    border:3px solid black;
+    padding-bottom:300px;
+    padding-top:5px;
+    border-radius:10px;
+    background-image: url('../Vue/Images/changer-fond-ecran-windows_01.jpg');
+    background-position: bottom;
+    text-align:center;
+    min-width:404px;
+}
+#lienPlanning {margin-top: 70px;}
+
+#planning {
+    border-radius:10px;
+    float: left ;
+    height:40%;
+    width: 27.5%;
+    margin-top: 2%;
+    margin-left:22px;
+    background-image: url('../Vue/Images/changer-fond-ecran-windows_01.jpg');
+    background-position: bottom;
+    padding: 20px;
+    overflow: auto;
+}
+
+#MesGroupes {
+    position:absolute;
+    top:600px;
+    left:2px;
+    font-size:20px;
+    margin-top:-5px;
+    border-radius:10px;
+    padding-top:5px;
+    background-image: url('../Vue/Images/changer-fond-ecran-windows_01.jpg');
+    background-position: bottom;
+    padding-bottom:80px;
+    text-align:center;
+    min-width:404px;
+    overflow: auto;
+}
+
+#Mes{
+    position:absolute;
+    top:780px;
+    left:2px;
+    font-size:20px;
+    margin-top:-5px;
+    border-radius:10px;
+    padding-top:5px;
+    background-image: url('../Vue/Images/changer-fond-ecran-windows_01.jpg');
+    background-position: bottom;
+    padding-bottom:80px;
+    text-align:center;
+    min-width:404px;
+}
+
+#nomGroupe {
+    position:absolute;
+    top:164px; 
+    left:425px;
+    height:70px;
+    min-width:860px;
+}
+
+#Descriptifdugroupe{
+    position:absolute;
+    top:230px; 
+    left:425px;
+    height:200px;
+    min-width:860px;
+}
+
+#Descriptifdugroupe2{
+    position:absolute;
+    top:290px; 
+    left:450px;
+    height:230px;
+    min-width:850px;
+    border : 0.5px solid black;
+    border-radius: 8px;
+}
+
+#NombreDeMembre{
+    position:absolute;
+    top:278px; 
+    left:745px;
+    height:30px;
+    min-width:220px;
+}
+
+#Chat{
+    position:absolute;
+    top:535px; 
+    left:425px;
+    border:3px solid black;
+    height:340px;
+    min-width:860px;
+    border-radius:10px;
+    background-color:white;
+}
+
+#CreerEvenement{
+    position:absolute;
+    top:954px;
+    left:555px;
+    font-size:20px;
+    text-align:center;
+    text-align:center;
+    border:3px solid black;
+    border-radius:10px;
+    min-width:200px;
+    background-color:white;
+    text-decoration:none;
+}
+
+#CreerEvenement:hover {
+    text-decoration:none;
+}
+
+#supprimerGroupe {
+     position:absolute;
+    top:954px;
+    left:925px;
+    font-size:20px;
+    text-align:center;
+    border:3px solid black;
+    border-radius:10px;
+    min-width:200px;
+    background-color:white;
+}
