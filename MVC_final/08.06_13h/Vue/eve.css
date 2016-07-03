@@ -1,0 +1,127 @@
+
+#corps {
+    background-color:rgb(112, 169, 198);
+    background-repeat: repeat-y;
+    height: 900px;
+    width: 1333px; 
+    overflow:hidden;
+    border-left:1.5px solid black;
+    border-right: 1.5px solid black;
+    margin-top: -25px;
+}
+
+#tabévénement {
+    border:3px solid black;
+    height:570px;
+    width: 600px;
+    float: right;
+    margin-right:220px; 
+    background-color: #fff;
+    margin-top: 2%;
+    padding-left: 15px;
+}
+
+#groupeAdmin {
+    border:3px solid black;
+    height:34.5%;
+    width: 600px;
+    float: right;
+    margin-right:470px; 
+    background-color: #fff;
+    margin-top: 2%;
+    padding-left: 15px;
+}
+
+#groupeBoutonAdmin {
+    height:34.5%;
+    width: 600px;
+    float: right;
+    margin-right:470px;
+    margin-top: 460px;
+    background-color: #4c8ade;
+    margin-top: 2%;
+    padding-left: 15px;
+}
+
+#planning1 {
+    float: left ;
+    border:3px solid black;
+    height:40%;
+    width: 20%;
+    margin-top: 2%;
+    margin-left:75px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+#gestionGroupe {
+    float: left ;
+    border:3px solid black;
+    height:30%;
+    width: 20%;
+    margin-left:-308px;
+    margin-right:0px;
+    margin-top: 35%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.espace {
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+    font-size:16px;
+}
+
+
+.centre {
+    padding-left: 25%;
+}
+
+.adroite {
+    float : middle;
+    margin-right: 35%;
+}
+
+.bouton {margin-left: 40%;}
+
+.bouton2 {margin-left: 35%;}
+
+.picture{
+    height:50px;
+    min-height:50px;
+    width:50px;
+    border-radius:30px;
+}
+.BasDePage {
+
+    padding-top:40px;
+    background-color:rgb(112, 169, 198);
+    height:140px; 
+    width:1333px;
+    border-left: solid 1.5px black;
+    border-right: solid 1.5px black;
+    border-bottom: solid 1.5px black;
+}
+
+.BasdePage2 {
+    margin-left:auto; 
+    margin-right:auto;
+    color:black;
+}
+
+.souligne {
+    text-decoration: none;
+    color:black;
+}
+
+.souligne:hover {
+    text-decoration: underline;
+}
+
+.BasDePage3 {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+}
+

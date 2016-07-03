@@ -1,0 +1,283 @@
+img {
+    width:10%%%;
+    height:118px;
+    /*text-align: center;*/
+    margin-top: -10px;
+}
+
+#structure {
+    background-color:#fff;
+    height:30%;
+}
+
+#header {
+    min-height: 130px;
+    min-width:1300px;
+    overflow: hidden; 
+}
+
+#teteG {
+    float : left;
+    margin-top:5px;
+    height:30%;
+}
+
+#teteD {
+    float : right;
+    font-size: large;
+    margin-right: 2%;
+    margin-top:1%;   
+}
+
+.design2 {
+    text-decoration: none;
+    color:black;
+}
+
+.design2:hover {
+    text-decoration: none;
+    color:#4c8ade;
+}
+
+#gris {
+    position:relative;
+    height: 24%;
+    width: 100%;
+    background-color: #0e1e57;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    margin-top: -15px;
+    z-index:1;
+}
+
+p {
+    margin-left: 2%;
+}
+
+#menu, #menu ul /* Liste */{
+	padding : 0; /* pas de marge intérieure */
+	margin : 0; /* ni extérieure */
+	list-style : none; /* on supprime le style par défaut de la liste */
+	line-height : 45px; /* on définit une hauteur pour chaque élément */
+	text-align : center; /* on centre le texte qui se trouve dans la liste */
+}
+
+#menu /* Ensemble du menu */{
+    
+	margin-left: 20%;
+	font-weight : bold; /* on met le texte en gras */
+	font-family : Calibri;
+	font-size : 12px; /* hauteur du texte : 12 pixels */
+    height : 30%;
+    width : 80%;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 20px;
+    margin-top: -20px;
+    margin-left:20%;
+}
+
+#menu a /* Contenu des listes */{
+	display : block; /* on change le type d'élément, les liens deviennent des balises de type block */
+	padding : 0; /* aucune marge intérieure */
+	background : #0e1e57; /* couleur de fond */   	 
+	color : #fff; /* couleur du texte */
+	text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
+	width : 150px; /* largeur */
+}
+
+#menu li /* Elements des listes */{
+	float : left;  /* pour IE qui ne reconnaît pas "transparent" */
+	border-right : 1px solid #fff; /* on met une bordure blanche à droite de chaque élément */
+}
+
+/* IE ne reconnaissant pas le sélecteur ">" */
+html>body #menu li{
+  border-right: 1px solid transparent ; /* on met une bordure transparente à droite de chaque élément */
+}
+
+#menu li ul /* Sous-listes */{
+	position: absolute;
+    width:144px;
+    /* Position absolue */ /* Largeur des sous-listes */
+	left: -999em; /* Hop, on envoie loin du champ de vision */
+}
+
+#menu li ul li /* Éléments de sous-listes */{
+/* pour IE qui ne reconnaît pas "transparent" (comme précédemment) */
+	border-top : 1px solid #fff; /* on met une bordure blanche en haut de chaque élément d'une sous liste */
+}
+
+/* IE ne reconnaissant pas le sélecteur ">" */
+html>body #menu li ul li{
+	border-top : 1px solid transparent; /* on met une bordure transparente en haut de chaque élément */
+}
+
+#menu li ul ul {
+	margin	: -22px 0 0 144px ; /* On décale les sous-sous-listes pour qu'elles ne soient pas au dessus des sous-listes */
+	/* pour IE qui ne reconnaît pas "transparent" (comme précédemment) */
+	border-left 	: 1px solid #fff ; /* Petite bordure à gauche pour ne pas coller ... */ 	 
+}
+
+/* IE ne reconnaissant pas le sélecteur ">" ... je me répète ;-) */
+html>body #menu li ul ul{
+	border-left 	: 1px solid transparent ; /* on met une bordure transparente sur la gauche de chaque élément */
+}
+
+#menu a:hover /* Lorsque la souris passe sur un des liens */{
+	color: #000; /* On passe le texte en noir... */
+	background: #fff; /* ... et au contraire, le fond en blanc */
+}
+
+#menu li:hover ul ul, #menu li.sfhover ul ul /* Sous-sous-listes lorsque la souris passe sur un élément de liste */{
+    	left: -999em; /* On expédie les sous-sous-listes hors du champ de vision */
+}
+
+#menu li:hover ul, #menu li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul  /* Sous-listes lorsque la souris passe sur un élément de liste ET sous-sous-lites lorsque la souris passe sur un élément de sous-liste */{
+    	left: auto; /* Repositionnement normal */
+    	min-height: 0; /* Corrige un bug sous IE */
+}
+
+#loupe{
+    position:absolute;
+    top:22px;
+    left:1060px;
+}
+
+.BarreRecherche {
+    position:absolute;
+    top:10px;
+    left:1080px;
+    border-radius:5px;
+}
+
+#fond {
+    background-image: url(image_groupe3.jpg);
+    height: 20%;
+    width: 70%;
+    margin-left: 28%;
+    margin-top: 2%;
+    border-radius: 8px;
+    border:3px solid black;
+}
+
+.article {
+    margin-top:-31px;
+    min-height:1100px;
+    width:100%;
+    background-color:rgb(112, 169, 198);
+    border:1.5px solid black;
+    border-radius: 3px;
+    margin-top: -30px;
+}
+
+#art {
+    border:3px solid black;    
+}
+
+#planning {
+    position:absolute;
+    left:2px;
+    top:160px;
+    font-size:20px;
+    border:3px solid black;
+    padding-bottom:300px;
+    padding-top:5px;
+    border-radius:10px;
+    background-color:white;
+    text-align:center;
+    min-width:300px;
+}
+
+#MesGroupes {
+    position:absolute;
+    top:530px;
+    left:2px;
+    font-size:20px;
+    margin-top:-5px;
+    border:3px solid black;
+    border-radius:10px;
+    padding-top:5px;
+    background-color:white;
+    padding-bottom:400px;
+    text-align:center;
+    min-width:300px;
+}
+
+#AideEnLigne {
+    position:absolute;
+    top:950px;
+    left:2px;
+    font-size:20px;
+    border:3px solid black;
+    border-radius:10px;
+    background-color:white;
+    min-width:300px;
+    text-align:center;
+}
+
+#AideEnLigne:hover {
+    text-decoration:underline;
+}
+
+.bordure {
+    height: 40%;
+    width: 70%;
+    margin-left: 28%;
+    margin-top: 2%;
+    border-radius: 8px;
+    border:3px solid black;
+    background-color: #fff;
+}
+
+.image {
+    height:50px;
+    width:50px;
+    border-radius:30px;
+}
+
+.BasDePage {
+
+    padding-top:10px;
+    background-color:rgb(112, 169, 198);
+    height:160px; 
+}
+
+.BasdePage2 {
+    margin-left:auto; 
+    margin-right:auto;
+    color:black;
+}
+
+.souligne {
+    text-decoration: none;
+    color:black;
+}
+
+.souligne:hover {
+    text-decoration: underline;
+}
+
+.BasDePage3 {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+}
+
+#bouton {
+    height:30px;
+    width: 120px;
+    background-color:#fff; 
+    border:2px solid black;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+#bouton:hover{
+    height:30px;
+    width: 120px;
+    background-color:#963535; 
+    border:2px solid black;
+    border-radius: 6px;
+}
+
