@@ -55,7 +55,7 @@
             <input type="submit" value="Envoyer" style="margin-left: 1%;"/>
         </form> 
                 </div>
-            <p class="art" id="CreerEvenement" style="margin-left: 250px;"><a href="../Vue/eve.php<?php echo'?nom='.$req['nom'] ?>">Quitter ce groupe </a></p>
+            <p class="art" id="CreerEvenement" style="margin-left: 250px;"><a href="../Vue/eve.php<?php echo'?nom='.$req['nom'] ?>">Quitter ces groupes </a></p>
             </div>
         </article>
        <?php 
